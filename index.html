@@ -1,0 +1,54 @@
+<!-- Content -->
+<style>
+    body {
+      background-color: rgb(211, 239, 250);
+    }
+  </style>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>E-Signature interface by Praphul :)</h1>
+            <p>Sign in the canvas below and save your signature as an image!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+             <canvas id="sig-canvas" width="620" height=260">
+                 Get a better browser, bro.
+             </canvas>
+         </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <button class="btn btn-primary" id="sig-submitBtn" >Submit Signature</button>
+            <button class="btn btn-default" id="sig-clearBtn">Clear Signature</button>
+        </div>
+    </div>
+    <br/>
+    <div class="row" >
+        <div class="col-md-12" >
+            <textarea id="sig-dataUrl"  class="form-control" rows="5" cols="81" >                     URL of your Signature will generate here</textarea>
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="col-md-12">
+            <img id="sig-image" src="" alt="Your signature will go here!"/>
+        </div>
+    </div>
+</div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h3 align ="center" style="color: rgb(35, 10, 107)" >Right click on above Signature to save</h3>
+    <h5 align= "center" style="color: rgb(206, 31, 75) ">----------All rights reserved by Praphul Kumar Singh----------</h5>
+    <script src="scripts.js"></script>
+</body>
+</html>
